@@ -1,7 +1,7 @@
 # Лучший пет-проект для дата-инженера (The best pet-project for a data-engineer)
 
 > [!NOTE]
-> **TL;DR** Заменил нерабочий Minio S3 на рабочий Silo S3. Проект снова актуален. Все изменения отображены в PR #1
+> **TL;DR** Заменил нерабочий Minio S3 на рабочий Silo S3. Проект снова актуален. Все изменения отображены в PR [#1](https://github.com/k0rsakov/pet_project_earthquake/pull/1)
 
 > [!IMPORTANT]
 > [Minio](https://github.com/minio/minio) ушел из OpenSource, но Docker-образы были доступны.<br><br>
@@ -12,7 +12,7 @@
 > Проинформировал, что в курсе проблемы в своем tg-канале — [пост](https://t.me/DataLikeQWERTY/194).<br><br>
 > Исследовал аналоги, думал взять совсем что-то другое, что описывал в этом [посте](https://t.me/DataLikeQWERTY/150)
 >, но решил остановить свой выбор на fork Minio — [PGSTY Silo](https://github.com/pgsty/silo).
-> На текущий момент (2026-10-05) Minio заменен на Silo. Более подробно описано в PR #1 
+> На текущий момент (2026-10-05) Minio заменен на Silo. Более подробно описано в PR [#1](https://github.com/k0rsakov/pet_project_earthquake/pull/1) 
 
 В этом [видео](https://youtu.be/MQPHgUQvKnI) я покажу лучший пет-проект для дата-инженера, который можно добавить в свой
 опыт. Вместе мы создадим
