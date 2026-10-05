@@ -14,6 +14,8 @@
 >, но решил остановить свой выбор на fork Minio — [PGSTY Silo](https://github.com/pgsty/silo).
 > На текущий момент (2026-10-05) Minio заменен на Silo. Более подробно описано в PR [#1](https://github.com/k0rsakov/pet_project_earthquake/pull/1) 
 
+___
+
 В этом [видео](https://youtu.be/MQPHgUQvKnI) я покажу лучший пет-проект для дата-инженера, который можно добавить в свой
 опыт. Вместе мы создадим
 полноценную инфраструктуру: Apache Airflow, PostgreSQL, MinIO (S3), Metabase и Docker. Покажу, как организовать
