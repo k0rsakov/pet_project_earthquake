@@ -318,7 +318,7 @@ CREATE TABLE ods.fct_earthquake
 	status varchar,
 	location_source varchar,
 	mag_source varchar
-)
+);
 ```
 
 DDL `dm.fct_count_day_earthquake`:
@@ -327,7 +327,7 @@ DDL `dm.fct_count_day_earthquake`:
 CREATE TABLE dm.fct_count_day_earthquake AS 
 SELECT time::date AS date, count(*)
 FROM ods.fct_earthquake
-GROUP BY 1
+GROUP BY 1;
 ```
 
 DDL `dm.fct_avg_day_earthquake`:
@@ -336,5 +336,5 @@ DDL `dm.fct_avg_day_earthquake`:
 CREATE TABLE dm.fct_avg_day_earthquake AS
 SELECT time::date AS date, avg(mag::float)
 FROM ods.fct_earthquake
-GROUP BY 1 
+GROUP BY 1;
 ```
