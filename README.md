@@ -129,7 +129,7 @@ docker-compose up -d
 
 ### 1. Data Architecture
 
-Lakehouse
+Data Lake + DWH.
 
 ```mermaid
 flowchart LR
